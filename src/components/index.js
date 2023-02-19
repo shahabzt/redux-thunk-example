@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchUsers } from "../store/user.action";
-import { UserPaint } from "./users.paint";
 import { Table } from "@mantine/core";
 import { Loading } from "./loading";
 
